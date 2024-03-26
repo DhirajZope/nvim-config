@@ -9,7 +9,6 @@ M.ui = {
 	statusline = {
 		theme = "default",
 		separator_style = "round",
-    overriden_modules = nil,
     modules = {
       venv = function ()
         local venv = require('venv-selector').get_active_venv()
