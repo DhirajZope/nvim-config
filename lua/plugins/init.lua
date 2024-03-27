@@ -23,7 +23,7 @@ return {
 	{ import = "plugins.gale.rust-tools" },
 	{ import = "plugins.gale.searchbox" },
 	-- { import = "plugins.gale.swenv" },
-  {import = "plugins.gale.venv-selector"},
+	{ import = "plugins.gale.venv-selector" },
 	{ import = "plugins.gale.todo-comments" },
 	{ import = "plugins.gale.trouble" },
 	{ import = "plugins.gale.ts-autotag" },
@@ -95,6 +95,8 @@ return {
 				"rust-analyzer",
 				-- toml
 				"dprint",
+				--GraphQL
+				"graphql-language-service-cli",
 				-- "lua-language-server", "stylua",
 				-- "html-lsp", "css-lsp" , "prettier",
 			},
@@ -120,6 +122,7 @@ return {
 				"json",
 				"markdown",
 				"markdown_inline",
+				"graphql",
 			},
 			indent = {
 				enable = true,
