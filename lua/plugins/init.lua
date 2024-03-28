@@ -30,7 +30,7 @@ return {
 	{ import = "plugins.gale.typescript-tools" },
 	{ import = "plugins.gale.ufo-statuscol", enabled = false },
 	{ import = "plugins.gale.zen-mode" },
-  {import = "plugins.gale.lazygit"},
+	{ import = "plugins.gale.lazygit" },
 	{ "TabbyML/vim-tabby", lazy = false },
 	{ "gleam-lang/gleam.vim", lazy = false },
 	-- core plugins
@@ -71,6 +71,7 @@ return {
 				"prettier",
 				-- Go
 				"golangci-lint",
+				"gopls",
 				-- Haskell
 				"fourmolu",
 				-- Markdown
@@ -124,6 +125,7 @@ return {
 				"markdown",
 				"markdown_inline",
 				"graphql",
+				"go",
 			},
 			indent = {
 				enable = true,

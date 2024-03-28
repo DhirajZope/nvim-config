@@ -51,6 +51,16 @@ lspconfig.graphql.setup({
 	capabilities = capabilities,
 })
 
+lspconfig.gopls.setup({
+	on_init = on_init,
+	on_attach = on_attach,
+	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+	root_dir = lspconfig.util.root_pattern("go.work", "go.mod", ".git"),
+	cmd = { "gopls" },
+	single_file_support = true,
+	capabilities = capabilities,
+})
+
 -- Definitions of tools for efm using efmls_configs
 -- [https://github.com/creativenull/efmls-configs-nvim#setup]
 local shellcheck = require("efmls-configs.linters.shellcheck")
