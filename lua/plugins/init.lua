@@ -30,6 +30,7 @@ return {
 	{ import = "plugins.gale.typescript-tools" },
 	{ import = "plugins.gale.ufo-statuscol", enabled = false },
 	{ import = "plugins.gale.zen-mode" },
+  {import = "plugins.gale.lazygit"},
 	{ "TabbyML/vim-tabby", lazy = false },
 	{ "gleam-lang/gleam.vim", lazy = false },
 	-- core plugins

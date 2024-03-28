@@ -23,8 +23,8 @@ M.ui = {
     }
 	},
 
-	theme = "oxocarbon",
-	theme_toggle = { "chadracula-evondev", "oxocarbon" },
+	theme = "pastelDark",
+	theme_toggle = { "chadracula-evondev", "pastelDark" },
 	telescope = { style = "bordered" },
 	hl_override = {
 		Comment = { italic = true },
