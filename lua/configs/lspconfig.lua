@@ -78,6 +78,7 @@ local black = require("efmls-configs.formatters.black")
 local rustfmt = require("efmls-configs.formatters.rustfmt")
 local latexindent = require("efmls-configs.formatters.latexindent")
 local dprint = require("efmls-configs.formatters.dprint")
+-- local xmlformatter = require("efmls-configs.formatters.xmlformatter")
 
 -- Table of tools per language
 local langs = {
@@ -99,6 +100,7 @@ local langs = {
 	toml = { dprint },
 	typescript = { prettier },
 	graphql = { prettier },
+  -- xml = {xmlformatter}
 }
 
 -- efmls_configs configuration table
